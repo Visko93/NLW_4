@@ -1,10 +1,13 @@
 import * as React from "react";
+
+import ExperienceBar from "../../organism/ExperienceBar";
 import { RegularButton } from "../../atoms/Buttons";
 
 
 const Home = () => {
     return (
         <>
+        <ExperienceBar />
         <h1>
             Home
         </h1>
